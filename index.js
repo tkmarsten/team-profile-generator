@@ -63,7 +63,7 @@ function displayOptions() {
           break
 
         default:
-          fs.writeFile('index.html', generate(team), (err) => {
+          fs.writeFile('sample.html', generate(team), (err) => {
             console.log(err)
           })
           break
@@ -98,7 +98,7 @@ function createEngineer() {
     }
   ])
     .then(answers => {
-      team.push(new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.EngineerGithub))
+      team.push(new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.engineerGithub))
       displayOptions()
     })
 }
