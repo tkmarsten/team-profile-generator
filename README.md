@@ -4,6 +4,8 @@
 
 A webpage generator that generates a project team based on user input. This project utilizes `Node.js` and the `inquirer` package to ask the user for input and generate HTML accordingly.
 
+![Image of homepage](homepage.png)
+
 ## Installation
 
 Use the command `npm i` to install the required packages.
